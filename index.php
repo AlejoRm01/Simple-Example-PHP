@@ -19,7 +19,7 @@ if (!empty($_POST['username'])) {
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <title> Bienvenido a la pagina </title>
+    <title> Welcome </title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -30,7 +30,7 @@ if (!empty($_POST['username'])) {
     <?php require 'partials/header.php'; ?>
     <h1>Write a name</h1>
 
-    <form action="index.php" method="post">
+    <form action="php-login" method="post">
         <input type="text" name="username" placeholder="Write a name">
         <input type="submit" value="Send">
     </form>
